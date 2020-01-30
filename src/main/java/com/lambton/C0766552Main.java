@@ -9,7 +9,7 @@ package com.lambton;
  *
  * @author Pritesh Patel
  */
-public class MidTerm_WMAD3464_Code {
+public class C0766552Main {
 
     public static void main(String[] args) 
     {
@@ -17,6 +17,7 @@ public class MidTerm_WMAD3464_Code {
         String rev = LambtonStringTools.reverse("Failure will never overtake me if my determination to succeed is strong enough");
         System.out.println("Input  : Failure will never overtake me if my determination to succeed is strong enough");
         System.out.println("Output : " + rev);
+
 
         rev = LambtonStringTools.reverse(null);
         System.out.println("Input  : NULL");

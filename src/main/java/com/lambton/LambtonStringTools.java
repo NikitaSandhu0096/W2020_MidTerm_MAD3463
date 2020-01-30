@@ -14,7 +14,13 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
-
+        int length = s.length();
+        String[] arr = s.split(s);
+        for(int i=0, j=length-1;i<length;i++,j--){
+            String a = arr[i];
+            arr[i] = arr[j];
+            arr[j] = a;
+        }
         return null;
     }
     
