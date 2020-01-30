@@ -20,7 +20,7 @@ public class C0766552Main {
         LambtonStringTools n1 = new LambtonStringTools();
         System.out.println("Output : " + n1.reverse("Failure will never overtake me if my determination to succeed is strong enough"));
 
-      //  rev = LambtonStringTools.reverse(null);
+        rev = LambtonStringTools.reverse(null);
         System.out.println("Input  : NULL");
         if(rev == null)
         {

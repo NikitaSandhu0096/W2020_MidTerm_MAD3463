@@ -57,6 +57,6 @@ public class LambtonStringTools
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
         originalString.replaceAll("College", "University");
-        return null;
+        return new String();
     }
 }
