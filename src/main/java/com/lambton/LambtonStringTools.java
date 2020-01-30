@@ -35,18 +35,26 @@ public class LambtonStringTools
     public static String mostFrequent(String s) 
     {
         int count = 0;
+        int max = 0;
         char[] c1 = s.toCharArray();
         int length = s.length();
         for(int i=0; i<length; i++){
             if(c1[i]==c1[i+1]){
-                System.out.println(c1);
                 count+=count;
+                System.out.println(c1[i]);
             }
             else {
                 System.out.println("Character don't match");
             }
         }
+        int[] count1 = new int[]{count};
+        for(int j=0; j<count1.length;j++){
+        if(max<count)
+        {
+            max+=max;
+        }}
         return "";
+        }
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
