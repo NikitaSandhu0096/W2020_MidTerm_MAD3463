@@ -56,7 +56,7 @@ public class LambtonStringTools
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
-        originalString.replaceAll("College", "University");
+        System.out.println(originalString.replaceAll("College", "University"));
         return new String();
     }
 }
