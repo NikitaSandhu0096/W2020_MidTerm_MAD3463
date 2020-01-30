@@ -41,7 +41,7 @@ public class LambtonStringTools
                 System.out.println(c1);
             }
             else {
-                System.out.println("Character not found");
+                System.out.println("Character don't match");
             }
         }
         return "";
