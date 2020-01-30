@@ -28,7 +28,7 @@ public class LambtonStringTools
     public static String initials(String s) 
     {
 
-        return null;
+        return new String();
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
