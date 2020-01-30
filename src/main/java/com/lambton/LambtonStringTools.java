@@ -27,7 +27,10 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public String initials(String s)
     {
-        System.out.println(s.re);
+        char[] ch = s.toCharArray();
+        for(int i=0; i<s.length(); i++) {
+            char t = ch[i];
+        }
         return "";
     }
 
