@@ -27,7 +27,7 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public String initials(String s)
     {
-
+        System.out.println(s.re);
         return "";
     }
 
