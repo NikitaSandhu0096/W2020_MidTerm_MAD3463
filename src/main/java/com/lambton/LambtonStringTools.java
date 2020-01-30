@@ -34,7 +34,14 @@ public class LambtonStringTools
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
     public static String mostFrequent(String s) 
     {
-        
+        int count = 0;
+        char[] c1 = s.toCharArray();
+        int length = s.length();
+        for(int i=0; i<length; i++){
+            if(c1[i]==c1[i+1]){
+                System.out.println(c1);
+            }
+        }
         return null;
     }
     
