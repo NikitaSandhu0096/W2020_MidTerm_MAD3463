@@ -16,10 +16,11 @@ public class C0766552Main {
         System.out.println("\n--- Reverse Words");
         String rev = LambtonStringTools.reverse("Failure will never overtake me if my determination to succeed is strong enough");
         System.out.println("Input  : Failure will never overtake me if my determination to succeed is strong enough");
-        System.out.println("Output : " + rev);
 
+        LambtonStringTools n1 = new LambtonStringTools();
+        System.out.println("Output : " + n1.reverse("Failure will never overtake me if my determination to succeed is strong enough"));
 
-        rev = LambtonStringTools.reverse(null);
+      //  rev = LambtonStringTools.reverse(null);
         System.out.println("Input  : NULL");
         if(rev == null)
         {
