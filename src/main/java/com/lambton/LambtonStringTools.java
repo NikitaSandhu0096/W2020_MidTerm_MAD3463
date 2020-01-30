@@ -44,7 +44,7 @@ public class LambtonStringTools
                 System.out.println("Character not found");
             }
         }
-        return null;
+        return new String();
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
