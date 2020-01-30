@@ -30,25 +30,25 @@ public class C0766552Main {
         //}
         
         System.out.println("\n--- Init");
-        String init = LambtonStringTools.initials("pritesh kumar pAtEl");
+       // String init = n1.initials("pritesh kumar pAtEl");
         System.out.println("Input  : pritesh kumar pAtEl");
-        System.out.println("Output : " + n1.init);
+        System.out.println("Output : " + n1.initials("pritesh kumar pAtEl"));
         
         System.out.println("\n--- Binary to Decimal");
-        int decimal = LambtonStringTools.binaryToDecimal("101010");
+        int decimal = n1.binaryToDecimal("101010");
         System.out.println("Input  : 101010");
         System.out.println("Output : " + decimal);
         
         System.out.println("\n--- Most Frequent");
-        String mostFrequent = LambtonStringTools.mostFrequent("pritesh kumar pAtEl");
+        String mostFrequent = n1.mostFrequent("pritesh kumar pAtEl");
         System.out.println("Input  : pritesh kumar pAtEl");
         System.out.println("Output : " + mostFrequent);
-        mostFrequent = LambtonStringTools.mostFrequent("aassrrttggg desf tersgdv");
+        mostFrequent = n1.mostFrequent("aassrrttggg desf tersgdv");
         System.out.println("Input  : aassrrttggg desf tersgdv");
         System.out.println("Output : " + mostFrequent);
         
         System.out.println("\n--- Replace SubString");
-        String newString = LambtonStringTools.replaceSubString("Lambton College in Toronto", "College", "University");
+        String newString = n1.replaceSubString("Lambton College in Toronto", "College", "University");
         System.out.println("Input  : Lambton College in Toronto");
         System.out.println("Output : " + newString);
     }

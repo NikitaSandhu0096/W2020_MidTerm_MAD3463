@@ -32,7 +32,7 @@ public class LambtonStringTools
     }
 
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
-    public static String mostFrequent(String s)
+    public String mostFrequent(String s)
     {
         int count = 0;
         int max = 0;
@@ -57,13 +57,13 @@ public class LambtonStringTools
     }
 
     //4 - CONVERT BINARY NUMBER TO DECIMALS
-    public static int binaryToDecimal(String s)
+    public int binaryToDecimal(String s)
     {
        return 0;
     }
 
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
-    public static String replaceSubString(String originalString, String findString, String newString)
+    public String replaceSubString(String originalString, String findString, String newString)
     {
         System.out.println(originalString.replaceAll("College", "University"));
         return "";
