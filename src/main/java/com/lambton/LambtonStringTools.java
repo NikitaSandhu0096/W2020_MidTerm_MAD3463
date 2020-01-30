@@ -21,14 +21,14 @@ public class LambtonStringTools
             arr[i] = arr[j];
             arr[j] = a;
         }
-        return new String();
+        return "";
     }
     
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
 
-        return new String();
+        return "";
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
@@ -44,7 +44,7 @@ public class LambtonStringTools
                 System.out.println("Character not found");
             }
         }
-        return new String();
+        return "";
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
@@ -57,6 +57,6 @@ public class LambtonStringTools
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
         System.out.println(originalString.replaceAll("College", "University"));
-        return new String();
+        return "";
     }
 }
