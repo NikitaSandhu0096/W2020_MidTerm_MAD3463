@@ -48,13 +48,12 @@ public class LambtonStringTools
             }
         }
         int[] count1 = new int[]{count};
-        for(int j=0; j<count1.length;j++){
-        if(max<count)
-        {
-            max+=max;
-        }}
-        return "";
+        for(int j=0; j<count1.length;j++) {
+            if (max < count) {
+                max += max;
+            }
         }
+        return "";
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
