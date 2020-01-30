@@ -9,10 +9,10 @@ package com.lambton;
  *
  * @author Pritesh Patel
  */
-public class LambtonStringTools 
+public class LambtonStringTools
 {
     //1 - REVERSE STRING
-    public String reverse(String s)
+    public static String reverse(String s)
     {
         int length = s.length();
         String[] arr = s.split(s);
@@ -25,7 +25,7 @@ public class LambtonStringTools
     }
 
     //2 - FORMAT INITIALS OF STRING
-    public String initials(String s)
+    public static String initials(String s)
     {
         char[] ch = s.toCharArray();
         for(int i=0; i<s.length(); i++) {
@@ -35,7 +35,7 @@ public class LambtonStringTools
     }
 
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
-    public String mostFrequent(String s)
+    public static String mostFrequent(String s)
     {
         int count = 0;
         int max = 0;
@@ -60,14 +60,14 @@ public class LambtonStringTools
     }
 
     //4 - CONVERT BINARY NUMBER TO DECIMALS
-    public int binaryToDecimal(String s)
+    public static int binaryToDecimal(String s)
     {
-        String a = (int)s;
+        int i = (int)s;
        return 0;
     }
 
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
-    public String replaceSubString(String originalString, String findString, String newString)
+    public static String replaceSubString(String originalString, String findString, String newString)
     {
         System.out.println(originalString.replaceAll("College", "University"));
         return "";
