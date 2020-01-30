@@ -62,7 +62,7 @@ public class LambtonStringTools
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s)
     {
-        int i = (int)s;
+        char[] ch = s.toCharArray();
        return 0;
     }
 
