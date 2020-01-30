@@ -14,19 +14,19 @@ public class C0766552Main {
     public static void main(String[] args) 
     {
         System.out.println("\n--- Reverse Words");
-        String rev = LambtonStringTools.reverse("Failure will never overtake me if my determination to succeed is strong enough");
+       // String rev = LambtonStringTools.reverse("Failure will never overtake me if my determination to succeed is strong enough");
         System.out.println("Input  : Failure will never overtake me if my determination to succeed is strong enough");
 
         LambtonStringTools n1 = new LambtonStringTools();
         System.out.println("Output : " + n1.reverse("Failure will never overtake me if my determination to succeed is strong enough"));
 
-        rev = LambtonStringTools.reverse(null);
+       // rev = LambtonStringTools.reverse(null);
         System.out.println("Input  : NULL");
-        if(rev == null)
+       // if(rev == null)
         {
-           System.out.println("Function returns NULL value");
-        }else {
-            System.out.println("Output : " + rev);
+       //    System.out.println("Function returns NULL value");
+       // }else {
+       //     System.out.println("Output : " + rev);
         }
         
         System.out.println("\n--- Init");
