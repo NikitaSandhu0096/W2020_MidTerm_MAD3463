@@ -40,6 +40,9 @@ public class LambtonStringTools
             if(c1[i]==c1[i+1]){
                 System.out.println(c1);
             }
+            else {
+                System.out.println("Character not found");
+            }
         }
         return null;
     }
